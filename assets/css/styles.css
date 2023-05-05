@@ -1,0 +1,155 @@
+#cabecera{
+    background-color: #C8D9E1;
+}
+
+#principal{
+    display:flex;
+    flex-direction:  row;
+    background-color: #0B0F16;
+    justify-content: space-between;
+
+}
+
+#izquierda{
+    background-color: #477894;
+    width: 30%;
+    font-size: 50px;
+    padding: 15px;
+    border: 5px white solid;
+    margin-left:15%;
+    margin-top: 5%;
+
+}
+
+#contenedorChats{
+    display:flex;
+    flex-direction: column;
+    background-color:steelblue;
+    padding: 0px;
+
+}
+
+.contenedorDatos{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 5px;
+    background-color: white;
+    border: 1px black solid;
+    
+
+}
+
+.contenedorImagenes{
+    width: 60%;
+}
+
+.contenedorImagenesTitulo{
+    width: 20%;
+}
+
+.contenedorImagenesConversacion{
+    width: 10%;
+    
+}
+
+.imagenes{
+    width: 90%;
+    border-radius:90%;
+}
+
+.imagenesTitulo{
+    width: 99%;
+    border-radius:90%;
+}
+
+.imagenesConversacion{
+    width: 99%;
+    border-radius:90%;
+}
+
+.contenedorDatos> div{
+    background-color: #6D9AB1;
+    border:2px black solid;
+    font-size: 12px;
+    
+}
+
+.fuente-avengers{
+    font-size: 30px;
+}
+
+
+#derecha{
+    background-color: #477894;
+    width: 69%;
+    font-size: 45px;
+    padding: 15px;
+    border:  5px white solid;
+    margin-right:15%;
+    margin-top:5%;
+}
+
+#tituloChat{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: darkgreen;
+    padding: 7px;
+   
+}
+
+#tituloChat > div{
+    background-color: darksalmon;
+    border: 1px black solid;
+
+}
+
+
+#chatGeneral{
+    display: flex;
+    flex-direction:column;
+    background-color: black;
+    padding: 5px;
+    
+}
+
+.contenidoChat{
+    background-color: #6D9AB1;
+    padding: 7px;
+    border: 2.5px #C8D9E1 solid;
+}
+
+.contenedorConversacionEntrante{
+    display: flex;
+    background-color: #0B0F16;
+    padding: 7px;
+}
+
+.contenedorConversacionEntrante > div{
+    background-color: #C8D9E1;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.contenedorConversacionSaliente{
+    display: flex;
+    background-color: #0B0F16;
+    padding: 7px;
+    flex-direction: row-reverse;
+}
+
+.contenedorConversacionSaliente > div{
+    background-color:#C8D9E1;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.textoConversacion{
+    font-size: 16px;
+}
+
+.horaConversacion{
+    font-size: 12px;
+    font-weight: bolder;
+}
